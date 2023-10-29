@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Web Application made with Next.js and Bootstrap to show the data of the original Pokemons from the pokeapo.co API. The app has a customized state management made with global context and useReducer hoos, based on Redux.
+
+The app has 2 different pages: The Homepage and the Details page. In the homepage you can see a paginated view of all the available pokemons, if the pokemons are favorite and a filter to look for specific pokemons. In the details page you can see more info about the selected pokemon and you can set it as a favourite. The app uses the Local Storage to persist the data from the user. To finish things there is only one unit test, it test some things for the Card component, the tests are made with Jest and Testing library (couldn't make more tests because the lack of time).
+
+In order to test the app you can download the repo, install dependencies with the command pnpm install and run the project with pnpm dev.
+
+Hope you like it!
 
 ## Getting Started
 

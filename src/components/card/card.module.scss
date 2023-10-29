@@ -1,0 +1,30 @@
+.pokemonCard {
+  text-decoration: none;
+  text-transform: capitalize;
+  .card {
+    border: none;
+    position: relative;
+    .filled,
+    .outlined {
+      position: absolute;
+      right: 0;
+      margin: 0.5rem;
+      color: #c7a800;
+    }
+    .filled polygon {
+      fill: #c7a800;
+    }
+    .details {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
